@@ -1,0 +1,213 @@
+{
+
+"dtg":[
+
+{ "id":3, "properties":"INVERSION_AUTO:BANDWIDTH_8_MHZ:FEC_2_3:FEC_1_2:QAM_64:TRANSMISSION_MODE_8K:GUARD_INTERVAL_1_32:HIERARCHY_NONE" },
+{ "id":6, "properties":"INVERSION_AUTO:BANDWIDTH_8_MHZ:FEC_2_3:FEC_AUTO:QAM_256:TRANSMISSION_MODE_32K:GUARD_INTERVAL_1_128:HIERARCHY_NONE" },
+{ "id":8, "properties":"INVERSION_AUTO:BANDWIDTH_8_MHZ:FEC_3_4:FEC_AUTO:QAM_64:TRANSMISSION_MODE_8K:GUARD_INTERVAL_1_32:HIERARCHY_NONE" },
+{ "id":12, "properties":"INVERSION_AUTO:BANDWIDTH_8_MHZ:FEC_3_4:FEC_AUTO:QSPK:TRANSMISSION_MODE_8K:GUARD_INTERVAL_1_32:HIERARCHY_NONE" }
+],
+	
+"muxes":[
+
+{ "id":1, "name":"PSB1 BBCA", "freq":"490000000", "dtg":3 },
+{ "id":2, "name":"PSB2 D3+4", "freq":"514000000", "dtg":3 },
+{ "id":3, "name":"PSB3 BBCB", "freq":"545800000", "dtg":6 },
+{ "id":4, "name":"COM4 SDN",  "freq":"506000000", "dtg":8 },
+{ "id":5, "name":"COM5 ArqA", "freq":"482000000", "dtg":8 },
+{ "id":6, "name":"COM6 ArqB", "freq":"529800000", "dtg":8 },
+{ "id":7, "name":"COM7",      "freq":"570000000", "dtg":6 },
+{ "id":8, "name":"COM8",      "freq":"586000000", "dtg":6 },
+{ "id":9, "name":"LW",        "freq":"538000000", "dtg":12 }
+
+],
+
+"genres":[
+
+{ "id":1, "name":"General Entertainment", "from":1, "to":99 },
+{ "id":2, "name":"HD", "from":100, "to":119 },
+{ "id":3, "name":"Childrens", "from":120, "to":129 },
+{ "id":4, "name":"News", "from":130, "to":139 },
+{ "id":5, "name":"Adult", "from":170, "to":199 },
+{ "id":6, "name":"Text services", "from":200, "to":209 },
+{ "id":7, "name":"Streamed channels", "from":225, "to":256 },
+{ "id":8, "name":"Interactive", "from":601, "to":609 },
+{ "id":9, "name":"Radio", "from":700, "to":739 },
+{ "id":10, "name":"Multiplexes", "from":990, "to":999 }
+
+],
+
+"channels":[
+
+{ "lcn":1,  "title":"BBC One",		"mux":1, "prog":4164, "vid":101, "aid":102 },
+{ "lcn":2,  "title":"BBC Two",		"mux":1, "prog":4287, "vid":201, "aid":202 },
+{ "lcn":3,  "title":"ITV",			"mux":2, "prog":8261, "vid":1701, "aid":1702 },
+{ "lcn":4,  "title":"Channel 4",	"mux":2, "prog":8384, "vid":1101, "aid":1102 },
+{ "lcn":5,  "title":"Channel 5",	"mux":2, "prog":8500, "vid":1601, "aid":1602 },
+{ "lcn":6,  "title":"ITV2",			"mux":2, "prog":8325, "vid":1801, "aid":1802 },
+{ "lcn":8,  "title":"London Live",	"mux":9, "prog":32842, "vid":2201, "aid":2202 },
+{ "lcn":9,  "title":"BBC Four",		"mux":1, "prog":4544, "vid":401, "aid":402, "notes":"1858-0530" },
+
+{ "lcn":10, "title":"ITV3",			"mux":4, "prog":16048, "vid":6881, "aid":6882 },
+{ "lcn":11, "title":"Pick",			"mux":5, "prog":22208, "vid":301, "aid":302 },
+{ "lcn":12, "title":"Dave",			"mux":5, "prog":22272, "vid":401, "aid":402, "notes":"0700-0300" },
+{ "lcn":13, "title":"Channel 4+1",	"mux":2, "prog":8452, "vid":1201, "aid":1202 },
+{ "lcn":14, "title":"More4",		"mux":2, "prog":8442, "vid":1401, "aid":1402 },
+{ "lcn":15, "title":"Film4",		"mux":2, "prog":8385, "vid":1501, "aid":1502 },
+{ "lcn":16, "title":"QVC",			"mux":4, "prog":13120, "ignore":true },
+{ "lcn":17, "title":"Really",		"mux":5, "prog":23712, "ignore":true, "notes":"0800-0400" },
+{ "lcn":18, "title":"4Music",		"mux":6, "prog":25664, "ignore":true },
+{ "lcn":19, "title":"Yesterday",	"mux":6, "prog":25792, "vid":301, "aid":302 },
+
+{ "lcn":20, "title":"DRAMA",		"mux":4, "prog":16208, "vid":6609, "aid":6610 },
+{ "lcn":21, "title":"5 USA",		"mux":4, "prog":12992, "vid":6689, "aid":6690 },
+{ "lcn":22, "title":"Ideal World",	"mux":6, "prog":25920, "ignore":true, "notes":"0700-0000" },
+{ "lcn":23, "title":"Create & Craft",	"mux":5, "prog":24384, "ignore":true, "notes":"0700-2200" },
+{ "lcn":24, "title":"ITV4",			"mux":2, "prog":8330, "vid":2001, "aid":2002 },
+{ "lcn":25, "title":"Home",			"mux":6, "prog":28096, "ignore":true },
+{ "lcn":26, "title":"ITVBe",		"mux":4, "prog":15856, "ignore":true },
+{ "lcn":27, "title":"ITV2+1",		"mux":4, "prog":15952, "vid":6529, "aid":6530, "notes":"0600-0300" },
+{ "lcn":28, "title":"E4",			"mux":2, "prog":8448, "vid":1301, "aid":1302 },
+{ "lcn":29, "title":"E4+1",			"mux":5, "prog":22336, "vid":501, "aid":502 },
+
+{ "lcn":30, "title":"5STAR",			"mux":4, "prog":12928, "vid":6673, "aid":6674 },
+{ "lcn":31, "title":"Spike",			"mux":6, "prog":25856, "vid":211, "aid":212 },
+{ "lcn":32, "title":"Sony Movie Channel",	"mux":5, "prog":24032, "vid":2121, "aid":2122 },
+{ "lcn":33, "title":"ITV+1",			"mux":2, "prog":8361, "vid":1901, "aid":1902 },
+{ "lcn":34, "title":"ITV3+1",			"mux":6, "prog":27232, "notes":"1800-0600" },
+{ "lcn":35, "title":"QVC Beauty",		"mux":6, "prog":28288, "ignore":true, "notes":"0500-0100" },
+{ "lcn":37, "title":"QUEST",			"mux":4, "prog":14498, "vid":6929, "aid":6930 },
+{ "lcn":38, "title":"QUEST Red",		"mux":5, "prog":23744, "vid":301, "aid":302 },
+{ "lcn":39, "title":"The Store",		"mux":4, "prog":14532, "ignore":true, "notes":"0600-2100" },
+
+{ "lcn":40, "title":"Rocks & Co",		"mux":6, "prog":27840, "ignore":true, "notes":"1300-2300" },
+{ "lcn":41, "title":"Food Network UK",	"mux":5, "prog":23040, "ignore":true },
+{ "lcn":42, "title":"Travel Channel",	"mux":6, "prog":27680, "vid":2401, "aid":2402 },
+{ "lcn":43, "title":"Gems TV",			"mux":5, "prog":24448, "ignore":true },
+{ "lcn":44, "title":"Channel 5+1",		"mux":4, "prog":13024, "vid":6865, "aid":6866 },
+{ "lcn":45, "title":"Film4+1",			"mux":3, "prog":20352, "vid":7501, "aid":7502 },
+{ "lcn":46, "title":"Challenge",		"mux":5, "prog":22226, "vid":201, "aid":202 },
+{ "lcn":47, "title":"4seven",			"mux":6, "prog":27168, "vid":2621, "aid":2622 },
+{ "lcn":48, "title":"Movies4Men",		"mux":5, "prog":24016, "vid":2801, "aid":2802 },
+{ "lcn":49, "title":"TJC",				"mux":4, "prog":14372, "ignore":true, "notes":"0600-0000" },
+
+{ "lcn":54, "title":"My5",			"mux":6, "prog":16080 },
+{ "lcn":55, "title":"5STAR+1",		"mux":6, "prog":16080 },
+{ "lcn":56, "title":"5USA+1",		"mux":6, "prog":16080, "notes":"1800-0500" },
+{ "lcn":57, "title":"VIVA",			"mux":7, "prog":41232, "ignore":true, "notes":"0500-1800" },
+{ "lcn":58, "title":"ITVBe+1",		"mux":4, "prog":15864, "ignore":true, "notes":"0400-0600" },
+{ "lcn":59, "title":"BT Showcase",	"mux":6, "prog":27360, "ignore":true, "notes":"1200-0000" },
+
+{ "lcn":61, "title":"True Entertainment",	"mux":4, "prog":14608, "vid":6305, "aid":6306, "notes":"0600-0300" },
+{ "lcn":62, "title":"ITV4+1",				"mux":4, "prog":15920, "notes":"0400-0600" },
+{ "lcn":63, "title":"Community",			"mux":7, "prog":41184, "ignore":true },
+{ "lcn":64, "title":"CBS Action",			"mux":6, "prog":27744, "vid":2941, "aid":2942 },
+{ "lcn":65, "title":"TBN UK",				"mux":5, "prog":null, "ignore":true },
+{ "lcn":66, "title":"CBS Reality",			"mux":4, "prog":14448 },
+{ "lcn":67, "title":"CBS Reality+1",		"mux":7, "prog":41328 },
+{ "lcn":68, "title":"TruTV",				"mux":5, "prog":23152 },
+{ "lcn":69, "title":"TruTV+1",				"mux":5, "prog":23184, "notes":"0500-0800" },
+
+{ "lcn":70, "title":"Horror Channel",	"mux":4, "prog":14480, "vid":6129, "aid":6130 },
+{ "lcn":71, "title":"CBS Drama",		"mux":6, "prog":27776 },
+{ "lcn":72, "title":"YourTV",			"mux":5, "prog":23216 },
+{ "lcn":73, "title":"YourTV+1",			"mux":6, "prog":27936, "ignore":true, "notes":"0300-0400" },
+{ "lcn":76, "title":"Jewellery Maker",	"mux":6, "prog":27136, "ignore":true, "notes":"0800-1200" },
+{ "lcn":77, "title":"Rishtey Europe",	"mux":7, "prog":41216, "ignore":true, "notes":"Closed" },
+{ "lcn":79, "title":"Dave Ja Vu",		"mux":5, "prog":23216 },
+
+{ "lcn":81, "title":"Talking Pictures",	"mux":6, "prog":28224, "vid":811, "aid":812 },
+{ "lcn":82, "title":"Vintage TV",		"mux":9, "prog":33216, "ignore":true, "notes":"Manchester only" },
+{ "lcn":83, "title":"Blaze",			"mux":7, "prog":41344, "ignore":true, "notes":"0500-0400" },
+{ "lcn":84, "title":"Blaze+1",			"mux":6, "prog":28096, "ignore":true, "notes":"0400-0500" },
+{ "lcn":86, "title":"More4+1",			"mux":7, "prog":41248 },
+
+{ "lcn":90, "title":"CBS Action+1",		"mux":7, "prog":28224, "vid":2321, "aid":2322 },
+{ "lcn":91, "title":"Front Runner",		"mux":9, "prog":33216, "ignore":true, "notes":"Manchester only" },
+{ "lcn":92, "title":"Quest+1",			"mux":6, "prog":41344, "notes":"0500-0800" },
+{ "lcn":93, "title":"TJC Choice",		"mux":6, "prog":28096, "ignore":true, "notes":"1300-2300" },
+{ "lcn":96, "title":"Forces TV",		"mux":8, "prog":45344, "vid":2311, "aid":2312 },
+
+{ "lcn":101, "title":"BBC One HD",		"mux":3, "prog":17540 },
+{ "lcn":102, "title":"BBC Two HD",		"mux":3, "prog":17472 },
+{ "lcn":103, "title":"ITV HD",			"mux":3, "prog":17604 },
+{ "lcn":104, "title":"Channel 4 HD",	"mux":3, "prog":17664 },
+{ "lcn":105, "title":"Channel 5 HD",	"mux":3, "prog":17920 },
+{ "lcn":106, "title":"BBC Four HD",		"mux":7, "prog":40976, "notes":"1858-0530" },
+{ "lcn":107, "title":"BBC News HD",		"mux":7, "prog":40960 },
+{ "lcn":108, "title":"Al Jazeera English HD",	"mux":7, "prog":41040, "ignore":true },
+{ "lcn":109, "title":"Channel 4+1 HD",	"mux":7, "prog":41008 },
+
+{ "lcn":110, "title":"4seven HD",		"mux":7, "prog":41024 },
+{ "lcn":111, "title":"QVC HD",			"mux":8, "prog":45056, "ignore":true, "notes":"0100-1300" },
+{ "lcn":112, "title":"QVC Beauty HD",	"mux":8, "prog":45072, "ignore":true, "notes":"1300-0100" },
+{ "lcn":113, "title":"RT HD",			"mux":7, "prog":41296, "ignore":true },
+{ "lcn":114, "title":"Colors HD",		"mux":7, "prog":41296, "ignore":true },
+{ "lcn":115, "title":"BT Showcase HD",	"mux":7, "prog":41296, "ignore":true },
+
+{ "lcn":120, "title":"CBBC",		"mux":1, "prog":4608, "notes":"0530-1858" },
+{ "lcn":121, "title":"CBeebies",	"mux":1, "prog":4672, "notes":"0530-1858" },
+{ "lcn":122, "title":"CITV",		"mux":4, "prog":16032, "notes":"0600-1800" },
+{ "lcn":123, "title":"CBBC HD",		"mux":3, "prog":18112, "notes":"0530-1858" },
+{ "lcn":124, "title":"CBeebies HD",	"mux":7, "prog":40992, "notes":"0530-1858" },
+{ "lcn":125, "title":"POP",			"mux":9, "prog":32896, "ignore":true },
+{ "lcn":126, "title":"Tiny POP",	"mux":5, "prog":23968, "ignore":true, "notes":"0300-0000" },
+
+{ "lcn":130, "title":"BBC News",			"mux":1, "prog":4352, "ignore":true },
+{ "lcn":131, "title":"BBC Parliament",		"mux":1, "prog":4736, "ignore":true },
+{ "lcn":132, "title":"Sky News",			"mux":5, "prog":22080, "ignore":true },
+{ "lcn":135, "title":"RT",					"mux":6, "prog":27712, "ignore":true },
+
+{ "lcn":700, "title":"BBC Radio 1",			"mux":1, "prog":6720 },
+{ "lcn":701, "title":"BBC R. 1Xtra",		"mux":1, "prog":5888 },
+{ "lcn":702, "title":"BBC Radio 2",			"mux":1, "prog":6784 },
+{ "lcn":703, "title":"BBC Radio 3",			"mux":1, "prog":6848 },
+{ "lcn":704, "title":"BBC Radio 4",			"mux":1, "prog":6912 },
+{ "lcn":705, "title":"BBC Radio 5 Live",	"mux":1, "prog":5632 },
+{ "lcn":706, "title":"BBC Radio 5 Live Sports Extra",	"mux":1, "prog":5696 },
+{ "lcn":707, "title":"BBC Radio 6 Music",	"mux":1, "prog":5760 },
+{ "lcn":708, "title":"BBC Radio 4 extra",	"mux":1, "prog":5824 },
+{ "lcn":709, "title":"BBC Asian Network",	"mux":1, "prog":5952 },
+
+{ "lcn":710, "title":"BBC World Service",	"mux":1, "prog":6016 },
+{ "lcn":711, "title":"The Hits",			"mux":6, "prog":26560 },
+{ "lcn":712, "title":"KISSFRESH",			"mux":5, "prog":22752 },
+{ "lcn":713, "title":"KISS",				"mux":6, "prog":22720 },
+{ "lcn":714, "title":"KISSTORY",			"mux":5, "prog":22784 },
+{ "lcn":715, "title":"Magic",				"mux":6, "prog":22688 },
+{ "lcn":716, "title":"heat",				"mux":6, "prog":26240 },
+{ "lcn":717, "title":"Kerrang!",			"mux":6, "prog":22656 },
+{ "lcn":718, "title":"Smooth Radio",		"mux":6, "prog":26368 },
+
+{ "lcn":719, "title":"BBC Radio Berkshire",			"mux":6, "prog":26368 },
+{ "lcn":720, "title":"BBC Three Counties (3CR)",	"mux":6, "prog":26368 },
+{ "lcn":721, "title":"BBC Radio London",			"mux":6, "prog":26368 },
+{ "lcn":722, "title":"BBC Surrey",					"mux":6, "prog":26368 },
+{ "lcn":734, "title":"BBC Essex",					"mux":6, "prog":26368 },
+
+{ "lcn":721, "title":"BBC Radio London","mux":1, "prog":6148 },
+{ "lcn":723, "title":"TalkSPORT",		"mux":5, "prog":22592 },
+{ "lcn":724, "title":"Capital FM",		"mux":4, "prog":14752 },
+{ "lcn":725, "title":"Premier",			"mux":6, "prog":28160 },
+{ "lcn":727, "title":"Absolute Radio",	"mux":4, "prog":14688 },
+{ "lcn":728, "title":"Heart",			"mux":4, "prog":14720 },
+
+{ "lcn":730, "title":"RNIB Connect",	"mux":5, "prog":null, "ignore":true },
+{ "lcn":731, "title":"Classic FM",		"mux":5, "prog":22848 },
+{ "lcn":732, "title":"LBC",				"mux":5, "prog":22880 },
+{ "lcn":733, "title":"TWR",				"mux":7, "prog":41168 },
+
+{ "lcn":990, "title":"PSB1 BBCA",	"mux":1, "prog":null },
+{ "lcn":991, "title":"PSB2 D3+4",	"mux":2, "prog":null },
+{ "lcn":992, "title":"PSB3 BBCB",	"mux":3, "prog":null },
+{ "lcn":993, "title":"COM4 SDN",	"mux":4, "prog":null },
+{ "lcn":994, "title":"COM5 ArqA",	"mux":5, "prog":null },
+{ "lcn":995, "title":"COM6 ArqB",	"mux":6, "prog":null },
+{ "lcn":996, "title":"LW",			"mux":9, "prog":null },
+{ "lcn":997, "title":"com7",		"mux":7, "prog":null },
+{ "lcn":998, "title":"com8",		"mux":8, "prog":null }
+
+]
+
+}
+
