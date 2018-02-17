@@ -110,7 +110,7 @@
 
 { "lcn":70, "title":"Horror Channel",	"mux":4, "prog":14480, "vid":6129, "aid":6130 },
 { "lcn":71, "title":"CBS Drama",		"mux":6, "prog":27776 },
-{ "lcn":72, "title":"YourTV",			"mux":5, "prog":23216 },
+{ "lcn":72, "title":"YourTV",			"mux":5, "prog":23216, "vid":2621, "aid":2622 },
 { "lcn":73, "title":"YourTV+1",			"mux":6, "prog":27936, "ignore":true, "notes":"0300-0400" },
 { "lcn":76, "title":"Jewellery Maker",	"mux":6, "prog":27136, "ignore":true, "notes":"0800-1200" },
 { "lcn":77, "title":"Rishtey Europe",	"mux":7, "prog":41216, "ignore":true, "notes":"Closed" },
