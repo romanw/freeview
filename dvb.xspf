@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/">
+<title>DVB Playlist</title>
+<trackList>
+<!-- COM5 (ARQ A) 482.000 MHz DVB-T -->
+<!--
+Sky News 22080
+Pick 22208
+Challenge 22226
+Dave 22272
+E4+1 22336
+ADULT smileTV3 22400
+talkSPORT 22592 (radio)
+RNIB Connect 22624 (radio)
+Classic FM 22848 (radio)
+LBC 22880 (radio)
+Food Network 23040
+TJC 23072
+TBN UK 23120
+YourTV 23216
+Really 23712
+Quest Red 23744
+QUEST+1 23808
+NOW 90s 23904
+Sony Movies 24032
+ADULT Xpanded TV 24128
+Together TV 24192
+Create & Craft 24384
+Gems TV 24448
+697 24500
+-->
+<track>
+	<title>9482 COM5 ArqA</title>
+	<location>dvb-t://frequency=482000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>9482</vlc:id>
+	</extension>
+</track>
+<track>
+	<title>11 Pick</title>
+	<location>dvb-t://frequency=482000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>11</vlc:id>
+		<vlc:option>program=22208</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>19 Dave</title>
+	<location>dvb-t://frequency=482000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>19</vlc:id>
+		<vlc:option>program=22272</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>28 E4+1</title>
+	<location>dvb-t://frequency=482000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>28</vlc:id>
+		<vlc:option>program=22336</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>72 YourTV</title>
+	<location>dvb-t://frequency=482000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>72</vlc:id>
+		<vlc:option>program=23216</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>32 Sony Movies</title>
+	<location>dvb-t://frequency=482000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>32</vlc:id>
+		<vlc:option>program=24032</vlc:option>
+	</extension>
+</track>
+
+<!--  PSB1 (BBC A) 490.000 MHz DVB-T -->
+<!--
+BBC ONE Lon 4164
+BBC TWO 4287
+BBC NEWS 4352
+BBC Red Button 4416
+BBC FOUR 4544
+CBBC 4608
+CBeebies 4672
+BBC Parliament 4736
+BBC R5L 5632 (radio)
+BBC R5SX 5696 (radio)
+BBC 6 Music 5760 (radio)
+BBC Radio 4 Ex 5824 (radio)
+BBC R1X 5888 (radio)
+BBC Asian Net. 5962 (radio)
+BBC World Sv. 6016 (radio)
+BBC Radio London 6148 (radio)
+BBC Three Counties 6157 (radio)
+BBC Berkshire 6275 (radio)
+BBC Essex 6279 (radio)
+BBC Surrey 6284 (radio)
+BBC Radio 1 6720 (radio)
+BBC Radio 2 6784 (radio)
+BBC Radio 3 6848 (radio)
+BBC Radio 4 6912 (radio)
+BBC RB 1 7168
+-->
+<track>
+	<title>9490 PSB1 BBCA</title>
+	<location>dvb-t://frequency=490000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>9490</vlc:id>
+	</extension>
+</track>
+<track>
+	<title>1 BBC One</title>
+	<location>dvb-t://frequency=490000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>1</vlc:id>
+		<vlc:option>program=4164</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>2 BBC Two</title>
+	<location>dvb-t://frequency=490000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>2</vlc:id>
+		<vlc:option>program=4287</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>9 BBC Four</title>
+	<location>dvb-t://frequency=490000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>9</vlc:id>
+		<vlc:option>program=4544</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>201 CBBC</title>
+	<location>dvb-t://frequency=490000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>201</vlc:id>
+		<vlc:option>program=4608</vlc:option>
+	</extension>
+</track>
+
+<!-- COM4 (SDN) 506.000 MHz DBV-T -->
+<!--
+5STAR 12928
+5 USA 12992
+Channel 5+1 13024
+QVC 13120
+Blaze 14384
+Blaze+1 14388
+Hochanda 14412
+CBS Reality 14448
+Horror Channel 14480
+TCC 14488
+QUEST 14498
+ADULT Xpanded2 14544
+ADULT Studio 66 14576
+Absolute Radio 14688 (radio)
+Heart 14720 (radio)
+Capital 14752 (radio)
+365 Travel 14784 (data)
+Sonlife 15016 (data)
+Racing TV 15032 (data)
+Arqiva Test Channel 15056 (data)
+Planet Knowledge 15064 (data)
+Kiss Chat & Date 15080 (data)
+Proud Dating 15096 (data)
+696 15176
+ADULT Section 15200
+695 15208
+Arise News 15432 (data)
+ChannelBox 15448 (data)
+VisionTV 15456 (data)
+Sports Channel Network 15464 (data)
+ADULT Party 15512
+Sony Movies Action 15576
+ITVBe 15856
+ITVBe+1 15864
+ITV4+1 15920
+ITV2+1 15952
+ITV3+1 16016
+CITV 16032
+5SELECT 16080
+Paramount Network 16112
+Ketchup TV 16200 (data)
+Drama 16208
+-->
+<track>
+	<title>9506 COM4 SDN</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>9506</vlc:id>
+	</extension>
+</track>
+<track>
+	<title>30 5STAR</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>30</vlc:id>
+		<vlc:option>program=12928</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>21 5 USA</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>21</vlc:id>
+		<vlc:option>program=12992</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>44 Channel 5+1</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>44</vlc:id>
+		<vlc:option>program=13024</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>66 CBS Reality</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>66</vlc:id>
+		<vlc:option>program=14448</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>70 Horror Channel</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>70</vlc:id>
+		<vlc:option>program=14480</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>12 QUEST</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>12</vlc:id>
+		<vlc:option>program=14498</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>40 Sony Movies Action</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>40</vlc:id>
+		<vlc:option>program=15576</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>59 ITV4+1</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>59</vlc:id>
+		<vlc:option>program=15920</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>27 ITV2+1</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>27</vlc:id>
+		<vlc:option>program=15952</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>34 ITV3+1</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>34</vlc:id>
+		<vlc:option>program=16016</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>203 CITV</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>203</vlc:id>
+		<vlc:option>program=16032</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>55 5SELECT</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>55</vlc:id>
+		<vlc:option>program=16080</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>54 Paramount Network</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>54</vlc:id>
+		<vlc:option>program=16112</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>20 Drama</title>
+	<location>dvb-t://frequency=506000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>20</vlc:id>
+		<vlc:option>program=16208</vlc:option>
+	</extension>
+</track>
+
+<!-- PSB2 (D3&4) 514.000 MHz DVB-T -->
+<!--
+ITV 8261
+ITV3 8294
+ITV2 8325
+ITV4 8330
+ITV +1 8361
+Channel 4 8384
+Film4 8385
+More 4 8442
+E4 8448
+Channel 4+1 8452
+Film4+1 8485
+Channel 5 8500
+Freeview 8600 (data)
+-->
+<track>
+	<title>9514 PSB2 D3+4</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>9514</vlc:id>
+	</extension>
+</track>
+<track>
+	<title>3 ITV</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>3</vlc:id>
+		<vlc:option>program=8261</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>10 ITV3</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>10</vlc:id>
+		<vlc:option>program=8294</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>6 ITV2</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>6</vlc:id>
+		<vlc:option>program=8325</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>24 ITV4</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>24</vlc:id>
+		<vlc:option>program=8330</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>33 ITV +1</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>33</vlc:id>
+		<vlc:option>program=8361</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>4 Channel 4</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>4</vlc:id>
+		<vlc:option>program=8384</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>14 Film4</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>14</vlc:id>
+		<vlc:option>program=8385</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>18 More4</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>18</vlc:id>
+		<vlc:option>program=8442</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>13 E4</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>13</vlc:id>
+		<vlc:option>program=8448</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>15 Channel 4+1</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>15</vlc:id>
+		<vlc:option>program=8452</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>45 Film4+1</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>45</vlc:id>
+		<vlc:option>program=8485</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>5 Channel 5</title>
+	<location>dvb-t://frequency=514000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>5</vlc:id>
+		<vlc:option>program=8500</vlc:option>
+	</extension>
+</track>
+
+<!-- COM6 (ARQ B) 529.833 MHz DVB-T -->
+<!--
+4Music 25664
+Yesterday 25792
+5Spike 25856
+Ideal World 25920
+KISS 26176 (radio)
+heat 26240 (radio)
+Kerrang! 26304 (radio)
+Smooth Radio 26368 (radio)
+Hits Radio 26560 (radio)
+Magic 26624 (radio)
+KISSTORY 26752 (radio)
+KISS FRESH 27040 (radio)
+4seven 27168
+Sewing Quarter 27200
+POP 27424
+RT 27456
+ADULT smileTV2 27520
+ADULT Section 27584
+DMAX 27680
+Al Jazeera Eng 27712
+CBS Justice 27744
+CBS Drama 27776
+ADULT Babestn 27904
+Home 28000
+Dave ja vu 28096
+Premier Radio 28160 (radio)
+TalkingPictures 28224
+QVC Style 28256
+QVC Beauty 28288
+698 28520
+-->
+<track>
+	<title>9529 COM6 ArqB</title>
+	<location>dvb-t://frequency=529833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>9529</vlc:id>
+	</extension>
+</track>
+<track>
+	<title>25 Yesterday</title>
+	<location>dvb-t://frequency=529833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>25</vlc:id>
+		<vlc:option>program=25792</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>31 Spike</title>
+	<location>dvb-t://frequency=529833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>31</vlc:id>
+		<vlc:option>program=25856</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>39 CBS Justice</title>
+	<location>dvb-t://frequency=529833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>39</vlc:id>
+		<vlc:option>program=27744</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>71 CBS Drama</title>
+	<location>dvb-t://frequency=529833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>71</vlc:id>
+		<vlc:option>program=27776</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>79 Dave ja vu</title>
+	<location>dvb-t://frequency=529833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>79</vlc:id>
+		<vlc:option>program=28096</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>81 Talking Pictures</title>
+	<location>dvb-t://frequency=529833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>81</vlc:id>
+		<vlc:option>program=28224</vlc:option>
+	</extension>
+</track>
+
+<!-- PSB3 (BBC B) 545.833 MHz DVB-T2 -->
+<!--
+BBC TWO HD 17472
+BBC ONE HD 17540
+ITV HD 17604
+Channel 4 HD 17664
+Channel 5 HD 17728
+CBBC HD 18112
+More4+1 20416
+-->
+<track>
+	<title>9545 PSB3 BBCB</title>
+	<location>dvb-t2://frequency=545833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>9545</vlc:id>
+	</extension>
+</track>
+<track>
+	<title>101 BBC One HD</title>
+	<location>dvb-t2://frequency=545833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>101</vlc:id>
+		<vlc:option>program=17540</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>102 BBC Two HD</title>
+	<location>dvb-t2://frequency=545833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>102</vlc:id>
+		<vlc:option>program=17472</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>103 ITV HD</title>
+	<location>dvb-t2://frequency=545833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>103</vlc:id>
+		<vlc:option>program=17604</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>104 Channel 4 HD</title>
+	<location>dvb-t2://frequency=545833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>104</vlc:id>
+		<vlc:option>program=17664</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>105 Channel 5 HD</title>
+	<location>dvb-t2://frequency=545833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>105</vlc:id>
+		<vlc:option>program=17920</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>204 CBBC HD</title>
+	<location>dvb-t2://frequency=545833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>204</vlc:id>
+		<vlc:option>program=18112</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>86 More4+1</title>
+	<location>dvb-t2://frequency=545833000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>86</vlc:id>
+		<vlc:option>program=20416</vlc:option>
+	</extension>
+</track>
+
+<!-- LTVmux 586.000 MHz DVB-T -->
+<!--
+London Live 32842
+Tiny Pop 33472
+Sony Movies +1 33664
+Sony Channel 33984
+Sony Movies Christmas 34048
+-->
+<track>
+	<title>9586 LTVmux</title>
+	<location>dvb-t://frequency=586000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>9586</vlc:id>
+	</extension>
+</track>
+<track>
+	<title>8 London Live</title>
+	<location>dvb-t://frequency=586000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>8</vlc:id>
+		<vlc:option>program=32842</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>60 Sony Movies+1</title>
+	<location>dvb-t://frequency=586000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>60</vlc:id>
+		<vlc:option>program=33664</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>48 Sony Channel</title>
+	<location>dvb-t://frequency=586000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>48</vlc:id>
+		<vlc:option>program=33984</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>50 Sony Movies Christmas</title>
+	<location>dvb-t://frequency=586000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>50</vlc:id>
+		<vlc:option>program=34048</vlc:option>
+	</extension>
+</track>
+
+<!-- COM7 (ARQ C) 746.000 MHz DVB-T2 -->
+<!--
+5USA+1
+CBS Reality+1
+Quest Red+1
+Pick+1
+Smithsonian Channel
+BBC News HD
+Channel 4+1 HD
+4seven HD
+RT HD
+Trans World Radio (radio)
+-->
+<track>
+	<title>9746 COM7 ArqC</title>
+	<location>dvb-t2://frequency=746000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>9746</vlc:id>
+	</extension>
+</track>
+<track>
+	<title>57 5USA+1</title>
+	<location>dvb-t2://frequency=746000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>57</vlc:id>
+		<vlc:option>program=41024</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>67 CBS Reality+1</title>
+	<location>dvb-t2://frequency=746000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>67</vlc:id>
+		<vlc:option>program=41328</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>92 Pick+1</title>
+	<location>dvb-t2://frequency=746000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>92</vlc:id>
+		<vlc:option>program=28224</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>99 Smithsonian Channel</title>
+	<location>dvb-t2://frequency=746000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>99</vlc:id>
+		<vlc:option>program=40960</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>109 Channel 4+1 HD</title>
+	<location>dvb-t2://frequency=746000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>109</vlc:id>
+		<vlc:option>program=41008</vlc:option>
+	</extension>
+</track>
+
+<!-- COM8 (ARQ D) 754.000 MHz DVB-T2 -->
+<!--
+QVC HD 45056
+QVC Beauty HD 45072
+CBeebies HD 45104
+BBC Four HD 45120
+QUEST HD 45152
+5STAR+1 45200
+FreeSports 45328
+Forces TV 45344
+PBS America 45360
+Together TV 45376
+Now 80s 45392
+NOW 90s 45408
+Together TV+1 45424
+-->
+<track>
+	<title>9754 COM8 ArqD</title>
+	<location>dvb-t2://frequency=754000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>9754</vlc:id>
+	</extension>
+</track>
+<track>
+	<title>106 BBC Four HD</title>
+	<location>dvb-t2://frequency=754000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>106</vlc:id>
+		<vlc:option>program=45120</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>114 Quest HD</title>
+	<location>dvb-t2://frequency=754000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>114</vlc:id>
+		<vlc:option>program=45152</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>56 5STAR+1</title>
+	<location>dvb-t2://frequency=754000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>56</vlc:id>
+		<vlc:option>program=45200</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>64 FreeSports</title>
+	<location>dvb-t2://frequency=754000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>64</vlc:id>
+		<vlc:option>program=45328</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>96 Forces TV</title>
+	<location>dvb-t2://frequency=754000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>96</vlc:id>
+		<vlc:option>program=45344</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>91 PBS America</title>
+	<location>dvb-t2://frequency=754000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>91</vlc:id>
+		<vlc:option>program=45360</vlc:option>
+	</extension>
+</track>
+</trackList>
+</playlist>
