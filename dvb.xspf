@@ -27,6 +27,7 @@ ADULT Xpanded TV 24128
 Together TV 24192
 Create & Craft 24384
 Gems TV 24448
+Film4+1 8485
 697 24500
 -->
 <track>
@@ -74,6 +75,14 @@ Gems TV 24448
 	<extension application="http://www.videolan.org/vlc/playlist/0">
 		<vlc:id>32</vlc:id>
 		<vlc:option>program=24032</vlc:option>
+	</extension>
+</track>
+<track>
+	<title>45 Film4+1</title>
+	<location>dvb-t://frequency=482000000:bandwidth=8</location>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:id>45</vlc:id>
+		<vlc:option>program=22464</vlc:option>
 	</extension>
 </track>
 
@@ -322,7 +331,6 @@ Film4 8385
 More 4 8442
 E4 8448
 Channel 4+1 8452
-Film4+1 8485
 Channel 5 8500
 Freeview 8600 (data)
 -->
@@ -411,14 +419,6 @@ Freeview 8600 (data)
 	<extension application="http://www.videolan.org/vlc/playlist/0">
 		<vlc:id>15</vlc:id>
 		<vlc:option>program=8452</vlc:option>
-	</extension>
-</track>
-<track>
-	<title>45 Film4+1</title>
-	<location>dvb-t://frequency=514000000:bandwidth=8</location>
-	<extension application="http://www.videolan.org/vlc/playlist/0">
-		<vlc:id>45</vlc:id>
-		<vlc:option>program=8485</vlc:option>
 	</extension>
 </track>
 <track>
